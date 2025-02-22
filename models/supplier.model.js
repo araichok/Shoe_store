@@ -7,7 +7,7 @@ const SupplierSchema = new mongoose.Schema(
         contact: String,
         shoesSupplied: [String]
     },
-    { versionKey: false } // Отключает __v
+    { versionKey: false } 
 );
 
 
